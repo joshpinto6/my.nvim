@@ -51,8 +51,8 @@ return {
 		-- No need dependencies because I use them all
 		-- dependencies = {
 		-- 'akinsho/nvim-toggleterm.lua',
-		--   "nvim-telescope/telescope.nvim",
-		--   "nvim-lua/plenary.nvim", -- only needed because it's a dependency of telescope
+		  "nvim-telescope/telescope.nvim",
+		  "nvim-lua/plenary.nvim", -- only needed because it's a dependency of telescope
 		-- },
 		config = function()
 			local toggleterm_manager = require("toggleterm-manager")

@@ -6,7 +6,6 @@ return {
 		"nvim-lua/plenary.nvim",
 		"nvim-tree/nvim-web-devicons", -- not strictly required, but recommended
 		"MunifTanjim/nui.nvim",
-		"3rd/image.nvim", -- Optional image support in preview window: See `# Preview Mode` for more information
 	},
 	cmd = "Neotree",
 	keys = {
@@ -44,9 +43,12 @@ return {
 			bind_to_cwd = false,
 			follow_current_file = { enabled = true },
 			use_libuv_file_watcher = true,
+			filtered_items = {
+				visible = true,
+			},
 		},
 		window = {
-			position = "right",
+			position = "left",
 			mappings = {
 				["<space>"] = "none",
 				["Y"] = {
