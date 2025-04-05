@@ -2,11 +2,11 @@ return {
 	"yetone/avante.nvim",
 	event = "VeryLazy",
 	lazy = false,
-enabled=false,
+	enabled = true,
 	version = false, -- set this if you want to always pull the latest change
 	opts = {
 		---@alias Provider "claude" | "openai" | "azure" | "gemini" | "cohere" | "copilot" | string
-		provider = "openai", -- Recommend using Claude
+		provider = "copilot", -- Recommend using Claude
 		auto_suggestions_provider = "copilot", -- Since auto-suggestions are a high-frequency operation and therefore expensive, it is recommended to specify an inexpensive provider or even a free provider: copilot
 		-- claude = {
 		--   endpoint = 'https://api.anthropic.com',
