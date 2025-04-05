@@ -1,3 +1,9 @@
+# My Text Editor/Terminal Config
+
+At a high level, I use:
+- Wezterm (for terminal management and in future as a partial tmux replacement)
+- Neovim (accessed through wezterm) for editing code and text
+
 This is an early version of my neovim config. Do not use it yourself because it's probably broken and definitely terrible. However, I intend to make it better over time so it wont be like that forever!
 
 ### Notes:
