@@ -31,4 +31,5 @@ return {
 	--   },
 	--   opts = {},
 	-- },
+	{ "sitiom/nvim-numbertoggle" },
 }
