@@ -13,3 +13,9 @@ This config was based on kickstart.nvim by @nvim-lua.
 A HUGE amount of this config is difrectly taken from @Alfarizi's config (bc i got frustrated with development slowdowns after making the switch from vscode) Over time, I hope that my config will diverge greatly.
 
 Wezterm config inspiration from @vimichael
+
+### Todo:
+
+- Implement session management Neovim plugin
+- Make avante work
+- Add wakatime to lualine
