@@ -56,3 +56,4 @@ Wezterm config inspiration from @vimichael
 - [x] Make avante work
 - [ ] Implement session management Neovim plugin
 - [ ] Add wakatime to lualine
+- [ ] GitMoji Support: https://github.com/Dynge/gitmoji.nvim
